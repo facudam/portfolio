@@ -52,16 +52,16 @@
 }
 
 /* Menu active styles */
-.hamburger-menu.active span:first-child {
+.hamburger-menu.active-hamburger span:first-child {
     width: 23px;
     position: absolute;
     left: 6px;
     transform: rotate(45deg)
 }
-.hamburger-menu.active span:nth-child(2) {
+.hamburger-menu.active-hamburger span:nth-child(2) {
     opacity: 0;
 }
-.hamburger-menu.active span:nth-child(3) {
+.hamburger-menu.active-hamburger span:nth-child(3) {
     width: 23px;
     position: absolute;
     left: 6px;
@@ -70,11 +70,11 @@
 /* End of menu active styles */
 
 .nav-container nav {
-    position: absolute;
+    position: fixed;
     top: 69px;
     right: -100%;
     background-color: #fff;
-    width: 70vw;
+    width: 80vw;
     height: calc(100vh - 69px);
     padding: 30px;
     box-shadow: -1px 8px 20px -5px var(--color-font);

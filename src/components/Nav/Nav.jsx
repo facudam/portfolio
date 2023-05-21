@@ -7,7 +7,7 @@ export const Nav = () => {
     const [ menuIsPressed, setMenuIsPressed ] = useState(false)
 
     const pressHamburgerBtn = () => {
-        document.querySelector('.hamburger-menu').classList.toggle('active')
+        document.querySelector('.hamburger-menu').classList.toggle('active-hamburger')
         const menuNav = document.querySelector('nav');
 
         if (menuIsPressed) {
