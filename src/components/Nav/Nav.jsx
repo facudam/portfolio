@@ -2,13 +2,20 @@ import FotoPerfil from '../../foto-perfil.jpg'
 import './Nav.css'
 
 export const Nav = () => {
+
+    const pressHamburgerBtn = () => {
+        document.querySelector('.hamburger-menu').classList.toggle('active')
+    }
+
     return(
         <div className='nav-container'>
-            <div className='logo-container'>
+            <a href='/' className='logo-container'>
                 <img src={ FotoPerfil }/>
                 <span>Facundo Cáceres</span>
-            </div>
-            <div className='hamburger-menu'>
+            </a>
+            <div
+                onClick={pressHamburgerBtn}
+                className='hamburger-menu'>
                 <span></span>
                 <span></span>
                 <span></span>
