@@ -1,1 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --color-font: #6b7688;
+    --background-main-color: rgb(237,242,248);
+}
+
+body {
+    background-color: var(--background-main-color);
+    font-family: 'Source Sans Pro', sans-serif;
+}
