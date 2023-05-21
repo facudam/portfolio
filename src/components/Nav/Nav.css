@@ -40,6 +40,7 @@
     flex-direction: column;
     justify-content: space-around;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .hamburger-menu span {
@@ -71,12 +72,13 @@
 .nav-container nav {
     position: absolute;
     top: 69px;
-    right: 0;
+    right: -100%;
     background-color: #fff;
     width: 70vw;
     height: calc(100vh - 69px);
     padding: 30px;
     box-shadow: -1px 8px 20px -5px var(--color-font);
+    transition: all .5s ease;
 }
 
 .nav-container nav ul {

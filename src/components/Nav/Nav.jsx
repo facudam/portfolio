@@ -1,10 +1,22 @@
+import { useState } from 'react'
 import FotoPerfil from '../../foto-perfil.jpg'
 import './Nav.css'
 
 export const Nav = () => {
 
+    const [ menuIsPressed, setMenuIsPressed ] = useState(false)
+
     const pressHamburgerBtn = () => {
         document.querySelector('.hamburger-menu').classList.toggle('active')
+        const menuNav = document.querySelector('nav');
+
+        if (menuIsPressed) {
+            setMenuIsPressed(false)
+            menuNav.style.setProperty('right', '-100%')
+        } else {
+            setMenuIsPressed(true)
+            menuNav.style.setProperty('right', '0')
+        }
     }
 
     return(
