@@ -19,7 +19,7 @@
     color: var(--violet);
 }
 
-.projects p {
+.projects > p {
     font-size: 1.1rem;
     text-align: center;
     color: var(--color-font);

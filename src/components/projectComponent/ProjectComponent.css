@@ -1,13 +1,14 @@
 .project-component {
     width: 95%;
     max-width: 1200px;
-    background-color: var(--background-main-color);
     border-radius: 15px;
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 20px;
+    box-shadow: var(--shadow-container);
+    background-color: var(--background-main-color);
 }
 
 .project-img-ctn {
@@ -16,9 +17,77 @@
     height: 300px;
     overflow: hidden;
     border-radius: 15px;
+    box-shadow: var(--shadow-container);
 }
 
 .project-img-ctn img {
+    width: 100%; 
+}
+
+.project-img-ctn img:hover {
+    animation: scrolling 8s ease infinite;
+}
+
+@keyframes scrolling {
+    from {
+        margin-top: 0;
+    }
+    to {
+        margin-top: -173%;
+    }
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-info > h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.project-info > p{
+    color: var(--color-font);
+}
+
+.technologies-ctn {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.technology {
+   background-color: #fff;
+   padding: 4px 15px;
+   border-radius: 6px;
+   box-shadow: var(--shadow-container);
+}
+
+.technologies-links {
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.technologies-links > a {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shadow-container);
+    transition: all 1s ease;
+}
+
+.technologies-links > a:hover {
+    background-color: var(--violet);
+}
+
+.technologies-links > a img {
+    width: 30px;
 }
