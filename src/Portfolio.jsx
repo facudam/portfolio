@@ -1,6 +1,7 @@
 import { Header } from "./components/Header/Header"
 import { Nav } from "./components/Nav/Nav"
-import { Projects } from "./sections/Projects/Projects"
+import { Projects } from "./sections/projects/Projects"
+
 
 
 export const Portfolio = () => {
@@ -9,7 +10,7 @@ export const Portfolio = () => {
             <Nav />
             <Header />
             <main>
-              <Projects />  
+              <Projects /> 
             </main>  
         </>
     )
