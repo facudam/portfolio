@@ -14,14 +14,14 @@ export const Header = () => {
                     <a href='https://github.com/facudam' target='_blank' title='github' rel="noopener noreferrer">
                         <img src='https://icongr.am/devicon/github-original.svg?size=83&color=000000' />
                     </a>
-                    <a href='https://twitter.com/FCaceres15' target='_blank' rel="noopener noreferrer">
+                    <a href='https://twitter.com/FCaceres15' target='_blank' rel="noopener noreferrer" title='twitter'>
                         <img src='https://icongr.am/devicon/twitter-original.svg?size=83&color=currentColor' />
                     </a>
                 </div>
             </div>
             
             <div className='main-header__link'>
-                <a href='/' className=''><span>Projects</span></a>
+                <a href='#projects' className=''><span>Projects</span></a>
             </div>
             
         </header>
