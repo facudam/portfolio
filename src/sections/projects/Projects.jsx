@@ -11,7 +11,7 @@ export const Projects = () => {
                 imageSRC={ MELI } 
                 alt='mercado libre clone' 
                 title='Mercado Libre'
-                description='A clone of the popular e-commerce platform. It includes interactivity and queries to its api. Shopping cart and extra product comparison functionality.'
+                description='A clone of the popular e-commerce platform. It includes interactivity and queries to its API. Shopping cart and extra product comparison functionality.'
                 technologies={['CSS','React', 'Context', 'UseReducer']} 
                 gitLINK='https://github.com/facudam/mercado-libre-app'
                 projectLINK='https://meliclon.netlify.app/'

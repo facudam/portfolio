@@ -1,22 +1,20 @@
 .project-component {
     width: 95%;
     max-width: 1200px;
-    border-radius: 15px;
-    padding: 25px;
+    padding: 35px;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 20px;
     box-shadow: var(--shadow-container);
-    background-color: var(--background-main-color);
+    background-color: rgba(247,247,247);
 }
 
 .project-img-ctn {
     width: 100%;
     max-width: 500px;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
-    border-radius: 15px;
     box-shadow: var(--shadow-container);
 }
 
@@ -44,6 +42,7 @@
 }
 
 .project-info > h3 {
+    margin-top: 10px;
     font-weight: 900;
     font-size: 1.5rem;
     color: #333;
@@ -55,21 +54,25 @@
 
 .technologies-ctn {
     display: flex;
+    justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
 }
 
 .technology {
-   background-color: #fff;
+   background-color: var(--violet);
    padding: 4px 15px;
    border-radius: 6px;
    box-shadow: var(--shadow-container);
+   font-weight: 900;
+   color: #fff;
 }
 
 .technologies-links {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
 }
 
@@ -85,7 +88,7 @@
 }
 
 .technologies-links > a:hover {
-    background-color: var(--violet);
+    background-color: var(--color-font);
 }
 
 .technologies-links > a img {
