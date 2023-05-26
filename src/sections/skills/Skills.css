@@ -1,6 +1,9 @@
 .skills-section {
     background-color: var(--background-main-color);
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
 }
 
 .skills-section > h2 {
@@ -14,6 +17,10 @@
 
 .skills-section > h2 span {
     color: var(--violet);
+}
+
+.skills-section > p {
+    text-align: center;
 }
 
 .skills-section__technologies {
@@ -42,12 +49,4 @@
 
 .skills-section__technologies > figure > svg {
     width: 100%;
-}
-
-.skills-section h3 {
-    text-align: center;
-    padding-top: 40px;
-    text-transform: uppercase;
-    color: #333;
-    font-weight: 900;
 }
