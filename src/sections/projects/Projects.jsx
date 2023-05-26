@@ -1,6 +1,5 @@
 import { ProjectComponent } from '../../components/projectComponent/ProjectComponent'
-import MELI from '../../images/meliclon.webp'
-import TYPING from '../../images/typing.webp'
+import { MELI, TYPING } from '../../images/index'
 import './Projects.css'
 
 export const Projects = () => {

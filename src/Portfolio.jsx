@@ -1,6 +1,7 @@
 import { Header } from "./components/Header/Header"
 import { Nav } from "./components/Nav/Nav"
 import { Projects } from "./sections/projects/Projects"
+import { Skills } from "./sections/skills/Skills"
 
 
 
@@ -11,7 +12,8 @@ export const Portfolio = () => {
             <Header />
             <main>
               <Projects /> 
-            </main>  
+            </main>
+            <Skills /> 
         </>
     )
 }

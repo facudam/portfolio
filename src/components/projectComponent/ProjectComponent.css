@@ -58,6 +58,7 @@
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
 
 .technology {
@@ -70,6 +71,7 @@
 }
 
 .technologies-links {
+    margin-top: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
