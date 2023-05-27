@@ -6,7 +6,7 @@ export const Header = () => {
         <header className='main-header'>
             <div className='main-header__titles'>
                 <h1><span>Hi there! </span>I'm Facundo Cáceres</h1>
-                <p>A frontend React developer based in Buenos Aires - Argentina, with a focus on web applications. I strive to deliver exceptional user experiences through efficient and innovative solutions.</p>
+                <p>A frontend React developer and SEO optimizer, based in Buenos Aires - Argentina, with a focus on web applications. I really love programing and development as much I love guitars and compose music. </p>
                 <div className='main-header__navigation'>
                     <a href='https://www.linkedin.com/in/facundo-c%C3%A1ceres/' target='_blank' title='linkedin' rel="noopener noreferrer">
                         <img src='https://icongr.am/devicon/linkedin-original.svg?size=83&color=000000' alt='linkedin logo'/>

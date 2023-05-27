@@ -1,0 +1,23 @@
+.about-section {
+    background-color: #fff;
+    padding: 0 25px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-section > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 69px;
+    color: #333;
+}
+
+.about-section > h2 span {
+    color: var(--violet);
+}
+
+.about-section > p {
+    color: var(--color-font);
+    font-size: 1.1rem;
+}
