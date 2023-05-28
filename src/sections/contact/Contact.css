@@ -1,0 +1,50 @@
+.contact-section {
+    padding: 0 25px 50px;
+}
+
+.contact-section > h2 {
+    font-size: 1.8rem;
+    padding-top: 69px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    font-weight: 900;
+}
+
+.contact-section > h2 span {
+    color: var(--violet);
+}
+
+.contact-section > p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0 25px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-icons > a {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: var(--shadow-container);
+}
+
+.contact-icons > a img {
+    width: 40px;
+}
+
+.contact-icons > button {
+    width: 65px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    box-shadow: var(--shadow-container);
+}
+
+

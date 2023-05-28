@@ -7,10 +7,12 @@
 }
 
 .about-section > h2 {
+    font-size: 1.8rem;
+    padding-top: 69px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 69px;
     color: #333;
+    font-weight: 900;
 }
 
 .about-section > h2 span {
