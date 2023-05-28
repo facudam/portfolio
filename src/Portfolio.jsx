@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/Footer"
 import { Header } from "./components/Header/Header"
 import { Nav } from "./components/Nav/Nav"
 import { About } from "./sections/about/About"
@@ -18,6 +19,7 @@ export const Portfolio = () => {
             <Skills />
             <About />
             <Contact />
+            <Footer />
         </>
     )
 }
