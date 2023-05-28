@@ -34,11 +34,11 @@ export const Nav = () => {
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>About me</li>
-                    <li>Contact</li>
+                    <li onClick={pressHamburgerBtn}><a href='#header' noopener noreferrer>Home</a></li>
+                    <li onClick={pressHamburgerBtn}><a href='#projects' rel='noopener noreferrer'>Projects</a></li>
+                    <li onClick={pressHamburgerBtn}><a href='#skills' rel='noopener noreferrer'>Skills</a></li>
+                    <li onClick={pressHamburgerBtn}><a href='#about' rel='noopener noreferrer'>About me</a></li>
+                    <li onClick={pressHamburgerBtn}><a href='#contact' rel='noopener noreferrer'>Contact</a></li>
                 </ul>
             </nav>
         </div>

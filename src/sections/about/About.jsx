@@ -2,7 +2,7 @@ import './About.css'
 
 export const About = () => {
     return(
-        <section className='about-section'>
+        <section className='about-section' id='about'>
             <h2><span>About </span>me</h2>
             <p>Before diving into the world of programming, I was fascinated by search engine optimization (SEO) and its impact on website visibility and user engagement. I learned the ins and outs of optimizing websites for search engines and achieved excellent results while applying it to two personal websites.</p>
             <p>The SEO was the starting point for me to delve into the world of web programming.</p>
