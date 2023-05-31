@@ -92,7 +92,6 @@
     font-size: 1.3rem;
     font-weight: 600;
     padding-bottom: 5px;
-    
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -100,4 +99,28 @@
 .nav-container nav ul li a {
     color: var(--color-font);
     text-decoration: underline;
+}
+
+@media screen and (min-width: 750px) {
+    .hamburger-menu {
+        display: none;
+    }
+    .nav-container nav {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0px;
+        background-color: transparent;  
+        box-shadow: none;
+    }
+    .nav-container nav ul {
+        flex-direction: row; 
+    }
+    .nav-container nav ul li {
+        font-size: 1.1rem;
+        padding-bottom: 0;
+        text-transform: none;
+        cursor: pointer;
+    }
+  
 }
