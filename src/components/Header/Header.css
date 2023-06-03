@@ -111,11 +111,13 @@
     }
     .main-header__titles h1 {
         text-align: start;
+        font-size: 2rem;
     }
     .main-header__titles > p {
         color: var(--color-font);
         text-align: start;
-        max-width: 700px;
+        max-width: 600px;
+        font-size: 1rem;
     }
     .main-header__navigation {
         margin: auto;
@@ -141,9 +143,7 @@
         width: 100%;
         max-width: 900px;
         margin-bottom: 300px;
-        margin: auto;
-        
-        
+        margin: auto; 
     }
    
 }

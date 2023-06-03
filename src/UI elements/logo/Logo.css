@@ -7,8 +7,7 @@
     gap: 10px;
 }
 .iniciales-ctn {
-    display: flex;
-    gap: 2px; 
+    display: flex; 
     height: 20px;
     justify-content: center;
     align-items: center;
@@ -19,15 +18,24 @@
     font-size: 1.3rem;
     font-weight: 900;
     color: var(--violet);
-    padding: 1px 2px 0;
+    padding: 1px 3px 0;
+    transition: all 1s ease;
 }
 
 .iniciales-ctn > span:first-child {
     background-color: var(--violet);
-    color: #fff;
-    
+    color: #fff;  
 }
 
+.logo-ctn:hover .iniciales-ctn > span {
+    color: #fff;
+    background-color: var(--violet);
+}
+
+.logo-ctn:hover .iniciales-ctn > span:first-child {
+    background-color: #fff;
+    color: var(--violet);
+}
 
 .slogan-ctn {
     width: 100%;
@@ -43,7 +51,7 @@
     background-color: inherit;
     font-size: 8px;
     color: #333;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
