@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import FotoPerfil from '../../foto-perfil.jpg'
 import './Nav.css'
+import { Logo } from '../../UI elements/logo/Logo'
 
 export const Nav = () => {
 
@@ -22,9 +22,9 @@ export const Nav = () => {
     return(
         <div className='nav-container'>
             <a href='/' className='logo-container'>
-                <img src={ FotoPerfil }/>
-                <span>Facundo Cáceres</span>
+                <Logo />
             </a>
+            
             <div
                 onClick={pressHamburgerBtn}
                 className='hamburger-menu'>

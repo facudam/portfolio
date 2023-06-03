@@ -13,21 +13,7 @@
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    gap: 5px;
     text-decoration: none;
-}
-
-.logo-container img {
-    width: 30px;
-    border-radius: 50%;
-}
-
-.logo-container span {
-    font-weight: 900;
-    color: var(--color-font);
-    text-transform: uppercase;
 }
 
 .hamburger-menu {
@@ -84,7 +70,7 @@
 .nav-container nav ul {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .nav-container nav ul li {
