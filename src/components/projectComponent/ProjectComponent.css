@@ -18,11 +18,11 @@
     box-shadow: var(--shadow-container);
 }
 
-.project-img-ctn img {
+.project-img-ctn > img {
     width: 100%; 
 }
 
-.project-img-ctn img:hover {
+.project-img-ctn > img:hover {
     animation: scrolling 2s ease-in infinite;
 }
 
@@ -94,7 +94,7 @@
     background-color: var(--color-font);
 }
 
-.technologies-links > a img {
+.technologies-links > a > img {
     width: 30px;
 }
 

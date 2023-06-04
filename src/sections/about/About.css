@@ -20,8 +20,20 @@
     color: var(--violet);
 }
 
-.about-section > p {
+.paragraph-ctn {
     max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.paragraph-ctn > p {
     color: var(--color-font);
     font-size: 1.1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .about-section > h2 {
+        font-size: 2.5rem;
+    }
 }
