@@ -4,7 +4,10 @@ export const Skills = () => {
     return(
         <section id='skills' className='skills-section'>
             <h2><span>My </span>Skills</h2>
-            <p>Technologies I already work with:</p>
+            <div className='skills-section__technologies'>
+                <p><span>SEO </span>(search engine optimization). I optimize websites to be easily found by users and search engines.</p>
+            </div>
+            <p>Technologies and knowledge I already work with:</p>
             <div className='skills-section__technologies'>
                 <figure title='HTML'>
                     <img src='https://icongr.am/devicon/html5-original-wordmark.svg?size=75&color=currentColor' alt='html logo'  />  

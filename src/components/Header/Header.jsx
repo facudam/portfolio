@@ -1,4 +1,3 @@
-import Perfil from '../../foto-perfil.jpg'
 import { GMAIL } from '../../images/index'
 import './Header.css'
 

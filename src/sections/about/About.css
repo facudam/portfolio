@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .about-section > h2 {
@@ -23,17 +23,32 @@
 .paragraph-ctn {
     max-width: 900px;
     display: flex;
-    flex-direction: column;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
-.paragraph-ctn > p {
+.paragraph-ctn > img {
+    display: none;
+    width: 100%;
+    max-width: 500px;
+}
+
+.paragraph-ctn > div p {
     color: var(--color-font);
     font-size: 1.1rem;
 }
 
 @media screen and (min-width: 800px) {
+    .about-section {
+        min-height: 80vh;
+        justify-content: center;
+        gap: 40px;
+    }
     .about-section > h2 {
         font-size: 2.5rem;
+    }
+    .paragraph-ctn > img {
+        display: block;
     }
 }
