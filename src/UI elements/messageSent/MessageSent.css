@@ -1,0 +1,54 @@
+:root {
+    --origin-right: -100px;
+    --right-px: 10px;
+}
+
+.message-sent {
+    position: fixed;
+    top: 68px;
+    z-index: 9999;
+    right: var(--origin-right);
+    background-color: rgba(70, 84, 235, 0.3);
+    padding: 5px 10px ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--violet);
+    animation: slide 2s ease;
+}
+
+.message-sent > span {
+    color: var(--violet);
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.message-sent > img {
+    filter: drop-shadow(1px 1px 1px var(--violet));
+    width: 15px;
+}
+
+@keyframes slide {
+    0% {
+        right: var(--origin-right);
+    }
+    25% {
+        right: var(--right-px);
+    }
+    75% {
+        right: var(--right-px);
+    }
+    100% {
+        right: var(--origin-right);
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    :root {
+        --origin-right: -300px;
+        --right-px: 100px;
+    }
+    .message-sent > img {
+        width: 20px;
+    }
+}
