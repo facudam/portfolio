@@ -34,7 +34,8 @@
 }
 
 .technology-figure:hover.technology-figure > img {
-    filter: grayscale(100%) blur(2px);
+    filter: blur(2px);
+   
 }
 
 .technology-figure:hover .technology-figure__span  {
