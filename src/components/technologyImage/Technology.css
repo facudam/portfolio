@@ -1,0 +1,56 @@
+.technology-figure {
+    position: relative;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: var(--shadow-container);
+    transition:  all .7s ease;
+    overflow: hidden;
+}
+
+.technology-figure > img {
+    width: 100%;
+}
+
+.technology-figure__span {
+    position: absolute;
+    transition: all .7s ease;
+    overflow: hidden;
+    width: 0px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: 900;
+    font-size: .75rem;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.technology-figure:hover.technology-figure > img {
+    filter: grayscale(100%) blur(2px);
+}
+
+.technology-figure:hover .technology-figure__span  {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 800px) {
+    .technology-figure {
+        width: 100px;
+        height: 100px;
+    }
+    .technology-figure > img {
+        width: 90%;
+    }
+    .technology-figure__span {
+        font-size: 1rem;
+    }
+}

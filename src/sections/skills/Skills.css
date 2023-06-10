@@ -42,25 +42,6 @@
     font-weight: 900;
 }
 
-.skills-section__technologies > figure {
-    background-color: #fff;
-    width: 70px;
-    height: 70px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    box-shadow: var(--shadow-container);
-}
-
-.skills-section__technologies > figure > img {
-    width: 100%;
-}
-
-.skills-section__technologies > figure > svg {
-    width: 100%;
-}
 
 @media screen and (min-width: 800px) {
     .skills-section {
@@ -72,16 +53,5 @@
     }
     .skills-section__technologies {
         padding: 50px;
-    }
-    .skills-section__technologies > figure {
-        width: 100px;
-        height: 100px;
-    }
-    .skills-section__technologies > figure > img {
-        width: 90%;
-    }
-    
-    .skills-section__technologies > figure > svg {
-        width: 90%;
     }
 }

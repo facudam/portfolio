@@ -34,7 +34,12 @@
     max-width: 500px;
 }
 
-.paragraph-ctn > div p {
+.paragraph-ctn > .about-section__texts h3 {
+    color: var(--color-font);
+    margin-bottom: 10px;
+}
+
+.paragraph-ctn > .about-section__texts p {
     color: var(--color-font);
     font-size: 1.1rem;
 }
