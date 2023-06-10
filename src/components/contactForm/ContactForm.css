@@ -39,15 +39,16 @@
 }
 
 .contact-form > input[type=submit] {
-    width: 250px;
+    width: 100px;
     background-color: var(--violet);
     color: #fff;
-    font-size: 1.2rem;
+    font-size: .8rem;
     font-weight: 700;
     cursor: pointer;
     margin: 10px 0 0;
     text-transform: uppercase;
     transition: all .5s ease;
+    padding: 10px;
 }
 
 .contact-form > input[type=submit]:hover {
@@ -67,6 +68,8 @@
         height: 120px;
     }
     .contact-form > input[type=submit] {
+        width: 250px;
+        font-size: 1.2rem;
         padding: 12px;
     }
 }
