@@ -24,7 +24,7 @@ export const Skills = () => {
                 <Technology imageLink='https://icongr.am/devicon/typescript-original.svg?size=75&color=currentColor' alt='typescript logo' title='typescript' />
                 
                 <Technology imageLink={NEXTJS} alt='next js logo' title='next.js'/>
-                <Technology imageLink='https://icongr.am/devicon/sass-original.svg?size=62&color=currentColor'  title='sass'/>
+                <Technology imageLink='https://icongr.am/devicon/sass-original.svg?size=62&color=currentColor' alt='sass logo'  title='sass'/>
             </div>
         </section>
     )
