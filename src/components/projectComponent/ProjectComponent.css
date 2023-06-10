@@ -101,6 +101,7 @@
 @media screen and (min-width: 1220px) {
     .project-component {
         gap: 50px;
+        padding: 30px 25px;
     }
     .project-img-ctn {
         height: 220px;
