@@ -20,7 +20,7 @@ export const Projects = () => {
                 imageSRC={ TYPING }
                 alt='Typing speed game'
                 title='Typing Speed Game'
-                description='An online game designed to enhance your typing skills and speed, tracking your progress and having fun trying to break your own record.'
+                description='An online game for desktop designed to enhance your typing skills and speed, tracking your progress and having fun trying to break your own record.'
                 technologies={['CSS', 'React', 'Context', 'LocalStorage']}
                 gitLINK='https://github.com/facudam/typing-speed-game'
                 projectLINK='https://typing-speed-game-1.netlify.app/'
