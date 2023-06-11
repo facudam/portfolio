@@ -1,5 +1,5 @@
 import { ProjectComponent } from '../../components/projectComponent/ProjectComponent'
-import { MELI, TYPING } from '../../images/index'
+import { MELI, TYPING, FICHAS } from '../../images/index'
 import './Projects.css'
 
 export const Projects = () => {
@@ -24,6 +24,15 @@ export const Projects = () => {
                 technologies={['CSS', 'React', 'Context', 'LocalStorage']}
                 gitLINK='https://github.com/facudam/typing-speed-game'
                 projectLINK='https://typing-speed-game-1.netlify.app/'
+            />
+            <ProjectComponent 
+                imageSRC={ FICHAS }
+                alt='Fichas medicas app'
+                title='Fichas medicas app'
+                description='A CRUD web app that allows for patient registration, adding medical consultations, and keeping medical records up to date.'
+                technologies={['CSS', 'React', 'Context', 'useReducer']}
+                gitLINK='https://github.com/facudam/fichas-medicas-app'
+                projectLINK='https://fichasmedicas.netlify.app/'
             />
         </section>
     )
