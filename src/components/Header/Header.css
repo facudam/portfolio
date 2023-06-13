@@ -17,11 +17,10 @@
     align-items: center;
     gap: 1rem;
     width: 100%;
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 .main-header__titles > h1 {
-    /* padding-top: 69px; */
     font-size: 2.4rem;
     text-align: center;
     color: #030303;
@@ -117,7 +116,7 @@
 @media screen and (min-width: 1220px) {
    .main-header__titles > h1{
         padding-top: 0;
-        font-size: 3.8rem;
+        font-size: 3.7rem;
     }
     .main-header__navigation {
         position: fixed;
