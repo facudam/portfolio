@@ -7,7 +7,7 @@ export const Header = () => {
         <header className='main-header' id='header'>
             <div className='main-header__titles'>
                 <h1><span>Hi there! </span>I'm Facundo Cáceres</h1>
-                <p>A frontend React developer and SEO optimizer based in Bs As - Argentina; with a focus on web applications. I really love programming and development as much as I love playing guitars and composing music. </p>
+                <p>A frontend React developer and SEO optimizer based in Buenos Aires - Argentina; with a focus on web applications. Programming and development lover, with an equal ardor for playing guitars and composing music. </p>
                 <div className='main-header__navigation'>
                     <ContactLink href='https://www.linkedin.com/in/facundo-caceres-dev/' src='https://icongr.am/devicon/linkedin-original.svg?size=83&color=000000' alt='linkedin logo' title='linkedin' />
                     <ContactLink href='mailto: facundocaceres.email@gmail.com' src={GMAIL} alt='gmail logo' title='email' />
