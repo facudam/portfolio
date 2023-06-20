@@ -7,10 +7,17 @@ export const Skills = () => {
         <section id='skills' className='skills-section'>
             <h2><span>My </span>Skills</h2>
             <div className='skills-section__technologies'>
-                <p><span>SEO </span>(search engine optimization). I optimize websites to be easily found by users and search engines.</p>
+                <p><span>SEO </span>(search engine optimization). I optimize websites to be easily found by users and search engines. Some of the SEO tools I work with are:</p>
+                <ul>
+                    <li>Google analytics</li> 
+                    <li>Google search console</li> 
+                    <li>Keyword research</li> 
+                    <li>SEO on page</li> 
+                    <li>Linkbuilding</li>
+                </ul>    
             </div>
             <p>Technologies I already work with:</p>
-            <div className='skills-section__technologies'>
+            <div className='skills-section__technologies flex-row'>
                 <Technology imageLink='https://icongr.am/devicon/html5-original-wordmark.svg?size=75&color=currentColor' alt=' html logo' title='html' />
                 <Technology imageLink='https://icongr.am/devicon/css3-original-wordmark.svg?size=75&color=currentColor' alt='css logo' title='css'/>
                 <Technology imageLink='https://icongr.am/devicon/javascript-original.svg?size=75&color=currentColor' alt='javascript logo' title='javascript'/>
@@ -20,7 +27,7 @@ export const Skills = () => {
                 <Technology imageLink='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/600px-Tailwind_CSS_Logo.svg.png' alt='tailwind logo' title='tailwind' />   
             </div>
             <p>Technologies currently studying:</p>
-            <div className='skills-section__technologies'>
+            <div className='skills-section__technologies flex-row'>
                 <Technology imageLink='https://icongr.am/devicon/typescript-original.svg?size=75&color=currentColor' alt='typescript logo' title='typescript' />
                 
                 <Technology imageLink={NEXTJS} alt='next js logo' title='next.js'/>

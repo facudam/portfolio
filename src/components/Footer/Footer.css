@@ -1,22 +1,14 @@
 .footer {
-    margin-top: 100px;
     padding: 70px 0 50px;
-    background-color: rgb(194, 204, 216);
+    background-color: var(--background-main-color);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 15px;
-}
-
-.footer > span:first-child {
-    font-weight: bold;
-    
+    gap: 5px;
 }
 
 .footer > span:nth-child(2) {
     color: var(--color-font);
-    font-weight: 600;
 }
 
 .footer > span > a {
