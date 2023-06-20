@@ -12,7 +12,7 @@ export const Projects = () => {
                 alt='mercado libre clone' 
                 title='Mercado Libre'
                 description='A clone of the popular e-commerce platform. It includes interactivity and queries to its API. Shopping cart and an extra product comparison functionality for desktop.'
-                technologies={['CSS','React', 'Context', 'UseReducer']} 
+                technologies={['CSS','React', 'Context', 'UseReducer', 'SwipperJs']} 
                 gitLINK='https://github.com/facudam/mercado-libre-app'
                 projectLINK='https://meliclon.netlify.app/'
             />
