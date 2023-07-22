@@ -58,7 +58,7 @@
     justify-content: center;
 }
 
-.main-header__link > a{
+.main-header__link > a:first-child{
     position: relative;
     padding: 10px 35px;
     text-align: center;
@@ -72,7 +72,7 @@
     overflow: hidden;
 }
 
-.main-header__link > a > span {
+.main-header__link > a:first-child > span {
     position: relative;
     z-index: 2;
     color: var(--violet);
@@ -80,7 +80,7 @@
     font-weight: 900;
 }
 
-.main-header__link > a::after {
+.main-header__link > a:first-child::after {
     position: absolute;
     content: '';
     width: 100%;
@@ -93,7 +93,7 @@
     border-radius: 0px 0px 300px 300px;
 }
 
-.main-header__link > a:hover::after {
+.main-header__link > a:first-child:hover::after {
     top: 0;
 }
 .main-header__link > a:hover > span {

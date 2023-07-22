@@ -16,7 +16,8 @@ export const Header = () => {
                 </div>
             </div> 
             <div className='main-header__link'>
-                <a href='#projects' className=''><span>Projects</span></a>
+                <a href='#projects'><span>Projects</span></a>
+                <a download="Facundo Cáceres CV" href="../../curriculum.pdf">Download CV</a>
             </div>
             
         </header>
