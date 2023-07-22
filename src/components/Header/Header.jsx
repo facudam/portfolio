@@ -1,6 +1,10 @@
 import { GMAIL } from '../../images/index'
 import { ContactLink } from '../contactLinks/ContactLink'
+import CV from '../../Dowloads/curriculum.pdf'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Header.css'
+
 
 export const Header = () => {
     return(
@@ -17,7 +21,13 @@ export const Header = () => {
             </div> 
             <div className='main-header__link'>
                 <a href='#projects'><span>Projects</span></a>
-                <a download="Facundo Cáceres CV" href="../../files/curriculum.pdf">Download CV</a>
+                <a download="CV-Facundo-Cáceres-Frontend-Developer" href={ CV }>
+                    <span>
+                       <FontAwesomeIcon icon={faDownload} />
+                       My Resume 
+                    </span>
+                    
+                </a>
             </div>
             
         </header>
