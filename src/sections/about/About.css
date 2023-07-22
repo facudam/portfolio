@@ -31,7 +31,13 @@
 .paragraph-ctn > img {
     display: none;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
+}
+
+.about-section__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .paragraph-ctn > .about-section__texts h3 {

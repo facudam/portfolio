@@ -1,6 +1,6 @@
 import { GMAIL } from '../../images/index'
 import { ContactLink } from '../contactLinks/ContactLink'
-import CV from '../../Dowloads/curriculum.pdf'
+import CV from '../../Downloads/curriculum.pdf'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Header.css'
@@ -26,7 +26,6 @@ export const Header = () => {
                        <FontAwesomeIcon icon={faDownload} />
                        My Resume 
                     </span>
-                    
                 </a>
             </div>
             

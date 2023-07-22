@@ -55,6 +55,7 @@
 
 .main-header__link {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -105,7 +106,7 @@
 
 .main-header__link a:nth-child(2) {
     position: relative;
-    padding: 10px 20px;
+    padding: 10px 17px;
     border: 3px solid var(--violet);
     background-color: var(--violet);
     color: #fff;
@@ -160,6 +161,9 @@
     .main-header__titles > p {
         color: var(--color-font);
         font-size: 1.2rem;
+    }
+    .main-header__link {
+        flex-direction: row;
     }
 }
 
