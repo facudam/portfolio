@@ -12,7 +12,7 @@ export const Header = () => {
         <header className='main-header' id='header'>
             <div className='introducing-titles'>
                 <div className='main-header__titles'>
-                    <h1><span>Hi there! </span>I'm Facundo Cáceres</h1>
+                    <h1 className='title-font'><span>Hi there! </span>I'm Facundo Cáceres</h1>
                     <p>A frontend React developer and SEO optimizer based in Buenos Aires, Argentina. Programming and development lover, with an equal ardor for playing guitars and composing music. </p>
                     <div className='main-header__navigation'>
                         <ContactLink href='https://www.linkedin.com/in/facundo-caceres-dev/' src='https://icongr.am/devicon/linkedin-original.svg?size=83&color=000000' alt='linkedin logo' title='linkedin' />

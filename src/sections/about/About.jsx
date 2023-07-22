@@ -4,7 +4,7 @@ import { WEBDEV }  from '../../images/index'
 export const About = () => {
     return(
         <section className='about-section' id='about'>
-            <h2><span>About </span>me</h2>
+            <h2 className='title-font'><span>About </span>me</h2>
             <div className='paragraph-ctn'>
                 <img src={ WEBDEV } alt='web development' />
                 <div className='about-section__texts'>

@@ -5,6 +5,11 @@
     
 }
 
+@font-face {
+    font-family: Poppins;
+    src: url('./fonts/Poppins-Black.ttf');
+}
+
 :root {
     --color-font: rgb(107, 118, 136);
     --background-main-color: rgb(237, 242, 248);
@@ -19,4 +24,8 @@ html {
 body {
     background-color: var(--background-main-color);
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title-font {
+    font-family: Poppins;
 }

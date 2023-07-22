@@ -5,7 +5,7 @@ import './Skills.css'
 export const Skills = () => {
     return(
         <section id='skills' className='skills-section'>
-            <h2><span>My </span>Skills</h2>
+            <h2 className='title-font'><span>My </span>Skills</h2>
             <div className='skills-section__technologies'>
                 <p><span>SEO </span>(search engine optimization). I optimize websites to be easily found by users and search engines. Some of the SEO tools I work with are:</p>
                 <ul>
