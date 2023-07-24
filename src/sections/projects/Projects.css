@@ -12,7 +12,6 @@
     padding-top: 69px;
     text-transform: uppercase;
     text-align: center;
-    color: #333;
     font-weight: 900;
 }
 
@@ -23,7 +22,6 @@
 .projects > p {
     font-size: 1.1rem;
     text-align: center;
-    color: var(--color-font); 
     margin-bottom: 15px; 
 }
 

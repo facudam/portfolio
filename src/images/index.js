@@ -5,6 +5,6 @@ import WEBDEV from './web-development.svg'
 import NEXTJS from './next-js-logo.svg'
 import FICHAS from './fichasmedicas.webp'
 import DEVELOPER from './developer.webp'
-import CODING from './coding.webp'
+import CODING from './coding2.webp'
 
 export { MELI, TYPING, GMAIL, WEBDEV, NEXTJS, FICHAS, DEVELOPER, CODING }

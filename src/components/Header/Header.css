@@ -32,7 +32,6 @@
 
 .main-header__titles > h1 {
     font-size: 2.4rem;
-    color: #030303;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -43,7 +42,6 @@
 
 .main-header__titles > p {
     font-size: 1.1rem; 
-    color: #333;
     margin-bottom: 15px;
 }
 
@@ -161,7 +159,7 @@
 .introducing-image {
     display: none;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .introducing-image img {
@@ -173,7 +171,6 @@
         font-size: 3rem;
     }
     .main-header__titles > p {
-        color: var(--color-font);
         font-size: 1.2rem;
     }
     .main-header__link > a:first-child {
@@ -184,16 +181,17 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1380px) {
     .main-header {
         flex-direction: row;
     }
     .introducing-titles {
-        max-width: 500px;
-        gap: 0;
+        max-width: 600px;
+       gap: 20px;
     }
     .main-header__titles {
         text-align: left;
+        gap: 0;
     }
     .main-header__navigation {
         position: fixed;

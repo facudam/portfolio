@@ -12,7 +12,6 @@
     padding-top: 69px;
     text-transform: uppercase;
     text-align: center;
-    color: #333;
     font-weight: 900;
 }
 
@@ -45,7 +44,6 @@
 }
 
 .paragraph-ctn > .about-section__texts p {
-    color: var(--color-font);
     font-size: 1.1rem;
 }
 

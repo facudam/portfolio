@@ -17,8 +17,8 @@
 }
 
 .attribution {
-    text-decoration: none;
     color: var(--color-font);
+    text-decoration: none;
     font-size: .7rem;
     margin-top: 10px;
     display: none;
