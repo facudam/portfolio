@@ -1,7 +1,6 @@
-import { GMAIL } from '../../images/index'
 import { ContactLink } from '../contactLinks/ContactLink'
 import CV from '../../Downloads/curriculum.pdf'
-import { DEVELOPER, CODING } from '../../images'
+import { DEVELOPER, CODING, GMAIL, TWITTER, LINKEDIN, GITHUB } from '../../images'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Header.css'
@@ -15,10 +14,10 @@ export const Header = () => {
                     <h1 className='title-font'><span>Hi there! </span>I'm Facundo Cáceres</h1>
                     <p>A frontend React developer and SEO optimizer based in Buenos Aires, Argentina. Programming and development lover, with an equal ardor for playing guitars and composing music. </p>
                     <div className='main-header__navigation'>
-                        <ContactLink href='https://www.linkedin.com/in/facundo-caceres-dev/' src='https://icongr.am/devicon/linkedin-original.svg?size=83&color=000000' alt='linkedin logo' title='linkedin' />
-                        <ContactLink href='mailto: facundocaceres.email@gmail.com' src={GMAIL} alt='gmail logo' title='email' />
-                        <ContactLink href='https://github.com/facudam' src='https://icongr.am/devicon/github-original.svg?size=83&color=000000' alt='github logo' title='github'/>
-                        <ContactLink href='https://twitter.com/FCaceres15' src='https://icongr.am/devicon/twitter-original.svg?size=83&color=currentColor' alt='twitter logo' title='twitter' />
+                        <ContactLink href='https://www.linkedin.com/in/facundo-caceres-dev/' src={ LINKEDIN } alt='linkedin logo' title='linkedin' />
+                        <ContactLink href='mailto: facundocaceres.email@gmail.com' src={ GMAIL } alt='gmail logo' title='email' />
+                        <ContactLink href='https://github.com/facudam' src={ GITHUB } alt='github logo' title='github'/>
+                        <ContactLink href='https://twitter.com/FCaceres15' src={ TWITTER } alt='twitter logo' title='twitter' />
                     </div>
                 </div> 
                 <div className='main-header__link'>

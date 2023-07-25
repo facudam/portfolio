@@ -1,3 +1,4 @@
+import { GITHUB, EYE } from '../../images'
 import './ProjectComponent.css'
 
 export const ProjectComponent = ({ imageSRC, alt, title, description, technologies, gitLINK, projectLINK }) => {
@@ -20,10 +21,10 @@ export const ProjectComponent = ({ imageSRC, alt, title, description, technologi
                 </div>
                 <div className='technologies-links'>
                     <a href={ gitLINK } target='_blank' rel='noopener noreferrer'>
-                        <img src='https://icongr.am/devicon/github-original.svg?size=59&color=currentColor' alt='github' title='code'/>
+                        <img src={ GITHUB } alt='github' title='code'/>
                     </a>
                     <a href={ projectLINK } target='_blank' rel='noopener noreferrer'>
-                        <img src='https://icongr.am/fontawesome/eye.svg?size=59&color=currentColor' alt='eye' title='live demo'/>
+                        <img src={ EYE } alt='eye' title='live demo'/>
                     </a>
                 </div>
             </div>

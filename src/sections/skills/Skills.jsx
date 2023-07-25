@@ -1,5 +1,5 @@
 import { Technology } from '../../components/technologyImage/Technology'
-import { NEXTJS } from '../../images/index'
+import { NEXTJS, HTML, CSS, JAVASCRIPT, TYPESCRIPT, GITHUB, GIT, SASS, TAILWIND, REACT } from '../../images'
 import './Skills.css'
 
 export const Skills = () => {
@@ -18,20 +18,20 @@ export const Skills = () => {
             </div>
             <p>Technologies I already work with:</p>
             <div className='skills-section__technologies flex-row'>
-                <Technology imageLink='https://icongr.am/devicon/html5-original-wordmark.svg?size=75&color=currentColor' alt=' html logo' title='html' />
-                <Technology imageLink='https://icongr.am/devicon/css3-original-wordmark.svg?size=75&color=currentColor' alt='css logo' title='css'/>
-                <Technology imageLink='https://icongr.am/devicon/javascript-original.svg?size=75&color=currentColor' alt='javascript logo' title='javascript'/>
-                <Technology imageLink='https://icongr.am/devicon/react-original.svg?size=75&color=currentColor' alt='react js logo' title='react'/>
-                <Technology imageLink='https://icongr.am/devicon/git-plain.svg?size=75&color=currentColor' alt='git logo' title='git' />
-                <Technology imageLink='https://icongr.am/devicon/github-original.svg?size=75&color=currentColor' alt='github logo' title='github' />
-                <Technology imageLink='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/600px-Tailwind_CSS_Logo.svg.png' alt='tailwind logo' title='tailwind' />   
+                <Technology imageLink={ HTML } alt=' html logo' title='html' />
+                <Technology imageLink={ CSS } alt='css logo' title='css'/>
+                <Technology imageLink={ JAVASCRIPT } alt='javascript logo' title='javascript'/>
+                <Technology imageLink={ REACT } alt='react js logo' title='react'/>
+                <Technology imageLink={ GIT } alt='git logo' title='git' />
+                <Technology imageLink={ GITHUB } alt='github logo' title='github' />
+                <Technology imageLink={ TAILWIND } alt='tailwind logo' title='tailwind' />   
             </div>
             <p>Technologies currently studying:</p>
             <div className='skills-section__technologies flex-row'>
-                <Technology imageLink='https://icongr.am/devicon/typescript-original.svg?size=75&color=currentColor' alt='typescript logo' title='typescript' />
+                <Technology imageLink={ TYPESCRIPT } alt='typescript logo' title='typescript' />
                 
                 <Technology imageLink={NEXTJS} alt='next js logo' title='next.js'/>
-                <Technology imageLink='https://icongr.am/devicon/sass-original.svg?size=62&color=currentColor' alt='sass logo'  title='sass'/>
+                <Technology imageLink={ SASS } alt='sass logo'  title='sass'/>
             </div>
         </section>
     )
