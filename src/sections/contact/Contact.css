@@ -25,31 +25,6 @@
     margin: 10px 0 25px;
 }
 
-.contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.contact-icons > a {
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: var(--shadow-container);
-}
-
-.contact-icons > a img {
-    width: 40px;
-}
-
-.contact-icons > button {
-    width: 65px;
-    border-radius: 50%;
-    border: none;
-    background-color: #fff;
-    box-shadow: var(--shadow-container);
-}
-
 @media screen and (min-width: 800px) {
     .contact-section > h2 {
         font-size: 2.2rem;

@@ -1,10 +1,9 @@
 import MELI from './meliclon.webp'
 import TYPING from './typing.webp'
 import GMAIL from './gmail.svg'
-import WEBDEV from './web-development.svg'
+import WEBDEV from './web-development.webp'
 import NEXTJS from './next-js-logo.webp'
 import FICHAS from './fichasmedicas.webp'
-import DEVELOPER from './developer.webp'
 import CODING from './coding2.webp'
 import TWITTER from './twitter.webp'
 import GITHUB from './github.webp'
@@ -20,4 +19,4 @@ import REACT from './react.webp'
 import GIT from './git.webp'
 
 
-export { MELI, TYPING, GMAIL, WEBDEV, NEXTJS, FICHAS, DEVELOPER, CODING, TWITTER, GITHUB, LINKEDIN, EYE, HTML, CSS, JAVASCRIPT, TYPESCRIPT, TAILWIND, SASS, REACT, GIT }
+export { MELI, TYPING, GMAIL, WEBDEV, NEXTJS, FICHAS, CODING, TWITTER, GITHUB, LINKEDIN, EYE, HTML, CSS, JAVASCRIPT, TYPESCRIPT, TAILWIND, SASS, REACT, GIT }

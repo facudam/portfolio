@@ -1,7 +1,7 @@
 .contact-form {
     width: 100%;
     max-width: 900px;
-    background:  radial-gradient(rgba(49, 59, 172, .3), rgba(107, 118, 136, .3), rgba(49,59,172, .2));
+    background:  radial-gradient(rgba(18, 111, 183, .3), rgba(107, 118, 136, .3), rgba(18, 111, 183, .2));
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -42,9 +42,9 @@
 
 .contact-form > input[type=submit] {
     width: 100px;
-    background-color: rgba(49, 59, 172, .7);
+    background-color: rgba(18, 111, 183, .7);
     box-shadow: var(--shadow-container);
-    color: #fff;
+    color: var(--secondary-background);
     text-shadow: 1px 1px 1px #000;
     font-size: .8rem;
     font-weight: 700;
@@ -56,7 +56,7 @@
 }
 
 .contact-form > input[type=submit]:hover {
-    background-color: rgba(49, 59, 172, .9);
+    background-color: rgba(18, 111, 183, .9);
 }
 
 @media screen and (min-width: 1220px) {

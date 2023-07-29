@@ -1,6 +1,6 @@
 import { ContactLink } from '../contactLinks/ContactLink'
 import CV from '../../Downloads/curriculum.pdf'
-import { DEVELOPER, CODING, GMAIL, TWITTER, LINKEDIN, GITHUB } from '../../images'
+import { CODING, GMAIL, TWITTER, LINKEDIN, GITHUB } from '../../images'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Header.css'

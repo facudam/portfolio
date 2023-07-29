@@ -9,7 +9,7 @@
     gap: 15px;
     margin-top: 20px;
     box-shadow: var(--shadow-container);
-    background-color: rgba(247,247,247);
+    background-color: var(--technology-background);
 }
 
 .project-img-ctn {
@@ -48,13 +48,12 @@
     margin-top: 10px;
     font-weight: 900;
     font-size: 1.5rem;
-    color: #333;
+    color: var(--secondary-color-font);
 }
 
 .project-info > p{
     max-width: 400px;
     color: var(--color-font);
-    color: #333;
 }
 
 .technologies-ctn {
@@ -84,7 +83,7 @@
 }
 
 .technologies-links > a {
-    background-color: #fff;
+    background-color: var(--secondary-background);
     padding: 10px;
     border-radius: 50%;
     display: flex;
