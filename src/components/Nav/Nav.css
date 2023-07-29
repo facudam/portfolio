@@ -1,8 +1,5 @@
 .nav-container {
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    background: hsla(0,0%,100%,.25);
-    border: 1px solid hsla(0,0%,100%,.18);
+    background: var(--nav-background);
     display: flex;
     justify-content: space-between;
     align-items: center;
