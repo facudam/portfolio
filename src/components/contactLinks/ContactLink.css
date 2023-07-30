@@ -27,7 +27,7 @@
     border-bottom-right-radius: 15px;
 }
 
-@media screen and (min-width: 1220px) {
+@media screen and (min-width: 1380px) {
     .contact-link:hover.contact-link > span {
         width: 80px;
     }
