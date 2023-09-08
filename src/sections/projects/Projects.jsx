@@ -6,7 +6,6 @@ export const Projects = () => {
     return(
         <section className='projects' id='projects'>
             <h2 className='title-font'>My <span>Projects</span></h2>
-            <p>A list of personal projects to action my skills.</p>
             <ProjectComponent 
                 imageSRC={ MELI } 
                 alt='mercado libre clone' 

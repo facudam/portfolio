@@ -32,9 +32,8 @@
 
 .main-header__titles > h1 {
     font-size: 2.4rem;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 45px;
-    text-transform: uppercase;
 }
 
 .main-header__titles > h1 > span {
@@ -133,6 +132,7 @@
     color: #fff;
     transition: all 1s ease;
 }
+
 .main-header__link a:nth-child(2)::before {
     position: absolute;
     content: '';
@@ -172,7 +172,7 @@
 
 @media screen and (min-width: 800px) {
     .main-header__titles > h1 {
-        font-size: 3rem;
+        font-size: 3.4rem;
     }
     .main-header__titles > p {
         font-size: 1.2rem;
@@ -200,6 +200,7 @@
     .main-header__titles > h1 {
         line-height: 60px;
         margin-bottom: 10px;
+        line-height: 55px;
     }
     .main-header__navigation {
         position: fixed;
