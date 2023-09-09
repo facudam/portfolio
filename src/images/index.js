@@ -18,6 +18,7 @@ import SASS from './sass.webp'
 import TYPESCRIPT from './typescript.webp'
 import REACT from './react.webp'
 import GIT from './git.webp'
+import NODE from './node.webp'
+import SQL from './sql.webp'
 
-
-export { MELI, TYPING, GMAIL, WEBDEV, NEXTJS, FICHAS, CODING, TWITTER, GITHUB, LINKEDIN, EYE, HTML, CSS, JAVASCRIPT, TYPESCRIPT, TAILWIND, SASS, REACT, GIT }
+export { MELI, TYPING, GMAIL, WEBDEV, NEXTJS, FICHAS, CODING, TWITTER, GITHUB, LINKEDIN, EYE, HTML, CSS, JAVASCRIPT, TYPESCRIPT, TAILWIND, SASS, REACT, GIT, NODE, SQL }

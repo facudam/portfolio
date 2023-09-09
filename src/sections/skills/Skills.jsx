@@ -1,5 +1,5 @@
 import { Technology } from '../../components/technologyImage/Technology'
-import { NEXTJS, HTML, CSS, JAVASCRIPT, TYPESCRIPT, GITHUB, GIT, SASS, TAILWIND, REACT } from '../../images'
+import { NEXTJS, HTML, CSS, JAVASCRIPT, TYPESCRIPT, GITHUB, GIT, SASS, TAILWIND, REACT, NODE, SQL } from '../../images'
 import './Skills.css'
 
 export const Skills = () => {
@@ -32,6 +32,8 @@ export const Skills = () => {
                 
                 <Technology imageLink={NEXTJS} alt='next js logo' title='next.js'/>
                 <Technology imageLink={ SASS } alt='sass logo'  title='sass'/>
+                <Technology imageLink={ NODE } alt='NodeJS logo' title='nodejs' />
+                <Technology imageLink={ SQL } alt='SQL logo' title='sql' />
             </div>
         </section>
     )
