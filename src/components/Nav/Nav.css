@@ -57,9 +57,10 @@
     top: 69px;
     right: -100%;
     background-color: var(--background-main-color);
+    background-color: rgb(252, 251, 251);
     width: 80vw;
     height: calc(100vh - 69px);
-    padding: 30px;
+    padding: 50px 40px;
     box-shadow: var(--shadow-container);
     transition: all .5s ease;
 }
@@ -101,7 +102,7 @@
         position: relative; 
     }
     .nav-container > nav > ul > li {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding-bottom: 0;
         text-transform: none;
         cursor: pointer;
@@ -111,7 +112,6 @@
         transform: translateY(-1px);
     }
     .nav-container > nav > ul > li > a {
-        text-transform: uppercase;
         text-decoration: none;
         padding: 2px 5px;
         font-weight: 700;
