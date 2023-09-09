@@ -2,32 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url('./fonts/Poppins-SemiBold.ttf');
+    font-family: Exo;
+    src: url('./fonts/Exo2-SemiBold.ttf');
     font-display: swap;
 }
 
 @font-face {
-    font-family: Source Sans Pro;
-    src: url('./fonts/SourceSansPro-Regular.otf');
+    font-family: Exo-regular;
+    src: url('./fonts/Exo2-Regular.ttf');
     font-display: swap;
 }
 
 :root {
     --color-font: #030303;
-    /* --color-font: #fff; */
     --background-main-color: rgb(237, 242, 248);
     --secondary-color-font: #333;
-    /* --background-main-color: rgb(9,14,25); */
     --secondary-background: #fff;
-    /* --violet: rgb(49, 59, 172); */
     --violet: rgb(18, 111, 183);
     --shadow-container: 1px 2px 10px -4px rgba(0, 0, 0, .5);
-    /* --technology-background: rgba(0,0,0, .5); */
     --technology-background: rgba(247,247,247);
     --color-button: #000;
     --nav-background: rgba(242,245,250, .5);
@@ -39,10 +34,10 @@ html {
 
 body {
     background-color: var(--background-main-color);
-    font-family: Source Sans Pro, sans-serif;
+    font-family: Exo-regular, sans-serif;
     color: var(--color-font);
 }
 
 .title-font {
-    font-family: Poppins, sans-serif;
+    font-family: Exo, sans-serif;
 }

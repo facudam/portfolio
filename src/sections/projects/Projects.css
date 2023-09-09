@@ -10,7 +10,6 @@
 .projects > h2 {
     font-size: 1.8rem;
     padding-top: 69px;
-    text-transform: uppercase;
     text-align: center;
     font-weight: 900;
 }
@@ -26,8 +25,11 @@
 }
 
 @media screen and (min-width: 800px) {
+    .projects {
+        gap: 20px;
+    }
     .projects > h2 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
 }
 
