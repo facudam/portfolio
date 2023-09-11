@@ -24,11 +24,11 @@ export const Skills = () => {
                 <Technology imageLink={ REACT } alt='react js logo' title='react'/>
                 <Technology imageLink={ GIT } alt='git logo' title='git' />
                 <Technology imageLink={ GITHUB } alt='github logo' title='github' />
-                <Technology imageLink={ TAILWIND } alt='tailwind logo' title='tailwind' />   
+                <Technology imageLink={ TAILWIND } alt='tailwind logo' title='tailwind' />
+                <Technology imageLink={ TYPESCRIPT } alt='typescript logo' title='typescript' />   
             </div>
             <p>Technologies currently studying:</p>
             <div className='skills-section__technologies flex-row'>
-                <Technology imageLink={ TYPESCRIPT } alt='typescript logo' title='typescript' />
                 
                 <Technology imageLink={NEXTJS} alt='next js logo' title='next.js'/>
                 <Technology imageLink={ SASS } alt='sass logo'  title='sass'/>

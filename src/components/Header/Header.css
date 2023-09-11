@@ -64,15 +64,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 18px;
 }
 
 .main-header__link > a:first-child{
     position: relative;
-    padding: 10px 20px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 700;
     border: 3px solid var(--violet);
@@ -111,12 +111,12 @@
 
 .main-header__link a:nth-child(2) {
     position: relative;
-    padding: 10px 7px;
+    padding: 10px 9px;
     border: 3px solid var(--color-button);
     background-color: var(--color-button);
     color: #fff;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
     transition: all 1s ease;
