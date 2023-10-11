@@ -13,18 +13,18 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    border: 1px solid var(--violet);
+    border: 1px solid var(--main-blue);
     animation: slide 2s ease;
 }
 
 .message-sent > span {
-    color: var(--violet);
+    color: var(--main-blue);
     font-weight: 900;
     text-shadow: 1px 1px 1px #fff;
 }
 
 .message-sent > img {
-    filter: drop-shadow(1px 1px 1px var(--violet));
+    filter: drop-shadow(1px 1px 1px var(--main-blue));
     width: 15px;
 }
 

@@ -14,7 +14,7 @@
 }
 
 .skills-section > h2 > span {
-    color: var(--violet);
+    color: var(--main-blue);
 }
 
 .skills-section > p {
@@ -64,7 +64,7 @@
 }
 
 .skills-section__technologies > ul li {
-    background-color: var(--violet);
+    background-color: var(--main-blue);
     padding: 5px 10px;
     box-shadow: var(--shadow-container);
     font-weight: 600;

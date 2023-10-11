@@ -18,7 +18,7 @@
     width: 35px;
     height: 35px;
     padding: 9px;
-    background-color: var(--violet);
+    background-color: var(--main-blue);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -81,7 +81,7 @@
 }
 
 .nav-container > nav > ul > li > a {
-    color: var(--violet);
+    color: var(--main-blue);
     text-decoration: underline;
 }
 
@@ -118,7 +118,7 @@
         color: var(--color-font);
     }
     .nav-container > nav > ul > li:hover > a {
-        color: var(--violet);
+        color: var(--main-blue);
     }
 }
 

@@ -17,24 +17,24 @@
     display: block;
     font-size: 1.3rem;
     font-weight: 900;
-    color: var(--violet);
+    color: var(--main-blue);
     padding: 1px 3px 0;
     transition: all 1s ease;
 }
 
 .iniciales-ctn > span:first-child {
-    background-color: var(--violet);
+    background-color: var(--main-blue);
     color: #fff;  
 }
 
 .logo-ctn:hover .iniciales-ctn > span {
     color: #fff;
-    background-color: var(--violet);
+    background-color: var(--main-blue);
 }
 
 .logo-ctn:hover .iniciales-ctn > span:first-child {
     background-color: #fff;
-    color: var(--violet);
+    color: var(--main-blue);
 }
 
 .slogan-ctn {
@@ -60,7 +60,7 @@
     content: '';
     width: 5px;
     height: 2px;
-    background-color: var(--violet);
+    background-color: var(--main-blue);
     top: 50%;
     left: -8px;
 }
@@ -70,7 +70,7 @@
     content: '';
     width: 5px;
     height: 2px;
-    background-color: var(--violet);
+    background-color: var(--main-blue);
     top: 50%;
     right: -8px;
 }
