@@ -1,0 +1,58 @@
+{
+    "header": {
+        "nav": [ "home", "projects", "skills", "about me", "contact" ],
+        "title": "Hi there! I'm Facundo Cáceres",
+        "description": "A Front-End React developer and SEO optimizer based in Buenos Aires, Argentina. Programming and development lover, with an equal ardor for playing guitars and composing music.",
+        "buttons": [ "projects", "my resume" ]
+    },
+    "projects": {
+        "title": [ "My", "Projects" ],
+        "meli-project": {
+            "title": "Mercado Libre",
+            "description": "A clone of the popular e-commerce platform. It includes interactivity and queries to its API. Shopping cart and an extra product comparison functionality for desktop."
+        },
+        "typing-project": {
+            "title": "Typing Speed Game",
+            "description": "An online game for desktop designed to enhance your typing skills and speed, tracking your progress and having fun trying to break your own record."
+        },
+        "fichas-project": {
+            "title": "Fichas médicas app",
+            "description": "A CRUD web app that allows for patient registration, adding medical consultations, and keeping medical records up to date."
+        }
+    },
+    "skills": {
+        "title": [ "My", "skills" ],
+        "description": "SEO (search engine optimization). I optimize websites to be easily found by users and search engines. Some of the SEO tools I work with are:",
+        "first-subtitle": "Technologies I already work with:",
+        "second-subtitle": "Technologies currently studying:"
+    },
+    "about": {
+        "title": [ "About", "me" ],
+        "subtitle": "How I started programming",
+        "story-description": [ "Before diving into the world of programming, I was fascinated by search engine optimization (SEO) and its impact on website visibility and user engagement. I learned the ins and outs of optimizing websites for search engines and achieved excellent results while applying it to personal websites.", "The SEO was the starting point for me to delve into the world of web programming.", "Currently, I am pursuing my programming education at university while also being a self-taught learner. I thrive on continuously expanding my skill set and staying up to date with the latest industry trends.", "I am thrilled to apply my programming and SEO skills in a professional setting and would be delighted to contribute as part of your team!" ]
+    },
+    "contact": {
+        "title": [ "Contact", "me"],
+        "description": "Let's work together!",
+        "name": {
+            "title": "Name",
+            "placeholder": "Enter your name"
+        },
+        "email": {
+            "title": "Email",
+            "placeholder": "Enter your email"
+        },
+        "message": {
+            "title": "Message",
+            "placeholder": "Type your message"
+        },
+        "button": {
+            "inactive": "Submit",
+            "active": "sending..."
+        }
+    },
+    "footer": {
+        "title": "Developed by Facundo Cáceres - 2023",
+        "subtitle": [ "Portfolio", "code"]
+    }
+}

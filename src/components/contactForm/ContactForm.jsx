@@ -29,15 +29,15 @@ export const ContactUs = () => {
     
     <form
         className='contact-form'
-        ref={form} 
-        onSubmit={sendEmail}>
+        ref={ form } 
+        onSubmit={ sendEmail }>
       <label>Name</label>
       <input id='userName' type="text" name="user_name" placeholder='Enter your Name' required/>
       <label>Email</label>
       <input id='useMail' type="email" name="user_email" placeholder='Enter your email' required/>
       <label>Message</label>
       <textarea id='userMessage' name="message" placeholder='Write your message' required/>
-      <input type="submit" value={btnValue} />
+      <input type="submit" value={ btnValue } />
     </form>
    </>
   );

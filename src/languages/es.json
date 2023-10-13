@@ -1,0 +1,58 @@
+{
+    "header": {
+        "nav": [ "home", "proyectos", "habilidades", "sobre mí", "contacto" ],
+        "title": "¡Hola! Soy Facundo Cáceres",
+        "description": "Desarrollador Front-End React y optimizador SEO con sede en Buenos Aires, Argentina. Amante de la programación y el desarrollo, con igual ardor por tocar la guitarra y componer música.",
+        "buttons": [ "proyectos", "mi cv" ]
+    },
+    "projects": {
+        "title": [ "Mis", "Proyectos" ],
+        "meli-project": {
+            "title": "Mercado Libre",
+            "description": "Un clon de la popular plataforma de comercio electrónico. Incluye interactividad y consultas a su API. Carrito de compras y funcionalidad adicional de comparación de productos para escritorio."
+        },
+        "typing-project": {
+            "title": "Typing Speed Game",
+            "description": "Un juego en línea para escritorio diseñado para mejorar tus habilidades y velocidad al tipear, seguir tu progreso y divertirte intentando batir tu propio récord."
+        },
+        "fichas-project": {
+            "title": "Fichas médicas app",
+            "description": "Una aplicación web CRUD que permite registrar pacientes, agregar consultas médicas y mantener actualizados los registros de los pacientes."
+        }
+    },
+    "skills": {
+        "title": [ "Mis", "habilidades" ],
+        "description": "SEO (optimización de motores de búsqueda). Optimizo sitios web para que los usuarios y los motores de búsqueda los encuentren fácilmente. Algunas de las herramientas SEO con las que trabajo son:",
+        "first-subtitle": "Tecnologías con las que ya trabajo:",
+        "second-subtitle": "Tecnologías actualmente en estudio:"
+    },
+    "about": {
+        "title": [ "Sobre", "mí" ],
+        "subtitle": "Cómo comencé a programar",
+        "story-description": [ "Antes de sumergirme en el mundo de la programación, me fascinaba la optimización de motores de búsqueda (SEO) y su impacto en la visibilidad del sitio web y la participación de los usuarios. Aprendí los pormenores de la optimización de sitios web para motores de búsqueda y obtuve excelentes resultados al aplicarlo a sitios web personales.", "El SEO fue el punto de partida para que me adentrara en el mundo de la programación web.", "Actualmente, estoy cursando mi educación en programación en la universidad y al mismo tiempo soy autodidacta. Prospero ampliando continuamente mis habilidades y manteniéndome actualizado con las últimas tendencias de la industria.", "¡Estoy entusiasmado por poder aplicar mis habilidades de programación y SEO en un entorno profesional y estaría encantado de contribuir como parte de tu equipo!" ]
+    },
+    "contact": {
+        "title": [ "Contáctate", "conmigo"],
+        "description": "¡Trabajemos juntos!",
+        "name": {
+            "title": "Nombre",
+            "placeholder": "Ingresa tu nombre"
+        },
+        "email": {
+            "title": "Email",
+            "placeholder": "Ingresa tu email"
+        },
+        "message": {
+            "title": "Mensaje",
+            "placeholder": "Escribe tu mensaje"
+        },
+        "button": {
+            "inactive": "Enviar",
+            "active": "enviando..."
+        }
+    },
+    "footer": {
+        "title": "Desarrollado por Facundo Cáceres - 2023",
+        "subtitle": [ "Código del", "portafolio"]
+    }
+}
