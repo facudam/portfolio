@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Nav.css'
 import { Logo } from '../../UI elements/logo/Logo'
+import { ARGENTINA, REINOUNIDO } from '../../images/index'
 
 export const Nav = () => {
 
@@ -39,6 +40,10 @@ export const Nav = () => {
                     <li onClick={pressHamburgerBtn}><a href='#skills' rel='noopener noreferrer'>Skills</a></li>
                     <li onClick={pressHamburgerBtn}><a href='#about' rel='noopener noreferrer'>About me</a></li>
                     <li onClick={pressHamburgerBtn}><a href='#contact' rel='noopener noreferrer'>Contact</a></li>
+                    <li className='flags-ctn'>
+                        <img src={ ARGENTINA } alt='argentina' />
+                        <img src={ REINOUNIDO } alt='united kingdom' />
+                    </li>
                 </ul>
             </nav>
         </div>

@@ -85,6 +85,18 @@
     text-decoration: underline;
 }
 
+.flags-ctn {
+    display: flex;
+    gap: 25px;
+    overflow: hidden; 
+}
+
+.flags-ctn img {
+    width: 50px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 750px) {
     .hamburger-menu {
         display: none;
@@ -111,6 +123,12 @@
     .nav-container > nav > ul > li:hover {
         transform: translateY(-1px);
     }
+
+    .nav-container > nav > ul > li:nth-child(6):hover {
+        transform: none;
+        cursor: default;
+    }
+
     .nav-container > nav > ul > li > a {
         text-decoration: none;
         padding: 2px 5px;
@@ -119,6 +137,10 @@
     }
     .nav-container > nav > ul > li:hover > a {
         color: var(--main-blue);
+    }
+
+    .flags-ctn img {
+        width: 25px;
     }
 }
 
