@@ -1,10 +1,10 @@
 import './Footer.css'
 
-export const Footer = () => {
+export const Footer = ({ footer }) => {
     return(
         <footer className='footer'>
-            <span>Developed by Facundo Cáceres - 2023</span>
-            <span>Portfolio <a href='https://github.com/facudam/portfolio' target='_blank' rel='noopener noreferrer'>code</a></span>
+            <span>{ footer.title }</span>
+            <span>{ footer.subtitle[0] } <a href='https://github.com/facudam/portfolio' target='_blank' rel='noopener noreferrer'>{ footer.subtitle[1] }</a></span>
             
             <a className='attribution' rel='nofollow' target='blank' href="https://storyset.com/work">Work illustrations by Storyset</a> 
         </footer>

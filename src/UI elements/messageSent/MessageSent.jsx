@@ -1,18 +1,19 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './MessageSent.css'
 
-export const MessageSent = () => {
+export const MessageSent = ({ shortMessage, longMessage }) => {
+    const [ shippingNotification, setShippingNotification ] = useState(shortMessage)
+
 
     useEffect(() => {
-        const message = document.querySelector('.message-text');
         if (window.outerWidth > 1220) {
-            message.innerHTML = 'Message successfully sent!'
+            setShippingNotification(longMessage)
         }
-    }, [])
+    }, [ longMessage ])
     
     return(
         <div className='message-sent'>
-            <span className='message-text'>sent!</span>
+            <span className='message-text'>{ shippingNotification }</span>
             <img src='https://icongr.am/fontawesome/check.svg?size=24&color=ffffff' alt='check' />
         </div>
     )

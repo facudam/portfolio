@@ -5,21 +5,29 @@ import { About } from "./sections/about/About"
 import { Contact } from "./sections/contact/Contact"
 import { Projects } from "./sections/projects/Projects"
 import { Skills } from "./sections/skills/Skills"
-
-
+import { useState } from "react"
+import { ENGLISH } from "./languages"
 
 export const Portfolio = () => {
+
+    const [ language, setLanguage ] = useState(ENGLISH)
+
+    const { header, projects, skills, about, contact, footer } = language;
+
     return(
         <>
-            <Nav />
-            <Header />
+            <Nav 
+                nav={ header.nav } 
+                setLanguage={ setLanguage }
+            />
+            <Header header={ header }/>
             <main>
-              <Projects /> 
+              <Projects projects={ projects }/> 
             </main>
-            <Skills />
-            <About />
-            <Contact />
-            <Footer />
+            <Skills skills={ skills }/>
+            <About about={ about }/>
+            <Contact contact={ contact } />
+            <Footer footer={ footer }/>
         </>
     )
 }

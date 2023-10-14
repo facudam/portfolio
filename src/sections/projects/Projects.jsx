@@ -2,36 +2,39 @@ import { ProjectComponent } from '../../components/projectComponent/ProjectCompo
 import { MELI, TYPING, FICHAS } from '../../images/index'
 import './Projects.css'
 
-export const Projects = () => {
+export const Projects = ({ projects }) => {
     return(
         <section className='projects' id='projects'>
-            <h2 className='title-font'>My <span>Projects</span></h2>
+            <h2 className='title-font'>{ projects.title[0] } <span>{ projects.title[1] }</span></h2>
             <ProjectComponent 
                 imageSRC={ MELI } 
                 alt='mercado libre clone' 
-                title='Mercado Libre'
-                description='A clone of the popular e-commerce platform. It includes interactivity and queries to its API. Shopping cart and an extra product comparison functionality for desktop.'
+                title={ projects.meliProject.title }
+                description={ projects.meliProject.description }
                 technologies={['CSS','React', 'Context', 'UseReducer', 'SwipperJs']} 
                 gitLINK='https://github.com/facudam/mercado-libre-app'
                 projectLINK='https://meliclon.netlify.app/'
+                buttons={ projects.buttons }
             />
             <ProjectComponent 
                 imageSRC={ TYPING }
                 alt='Typing speed game'
-                title='Typing Speed Game'
-                description='An online game for desktop designed to enhance your typing skills and speed, tracking your progress and having fun trying to break your own record.'
+                title={ projects.typingProject.title }
+                description={ projects.typingProject.description }
                 technologies={['CSS', 'React', 'Context', 'LocalStorage']}
                 gitLINK='https://github.com/facudam/typing-speed-game'
                 projectLINK='https://typing-speed-game-1.netlify.app/'
+                buttons={ projects.buttons }
             />
             <ProjectComponent 
                 imageSRC={ FICHAS }
                 alt='Fichas medicas app'
-                title='Fichas medicas app'
-                description='A CRUD web app that allows for patient registration, adding medical consultations, and keeping medical records up to date.'
+                title={ projects.fichasProject.title }
+                description={ projects.fichasProject.description }
                 technologies={['CSS', 'React', 'Context', 'useReducer']}
                 gitLINK='https://github.com/facudam/fichas-medicas-app'
                 projectLINK='https://fichasmedicas.netlify.app/'
+                buttons={ projects.buttons }
             />
         </section>
     )

@@ -2,12 +2,12 @@ import './Contact.css'
 import { GMAIL } from '../../images/index'
 import { ContactUs } from '../../components/contactForm/ContactForm'
 
-export const Contact = () => {
+export const Contact = ({ contact }) => {
     return(
         <section className='contact-section' id='contact'>
-            <h2 className='title-font'><span>Contact</span> me</h2>
-            <p>Let's work together!</p>
-            <ContactUs />
+            <h2 className='title-font'><span>{ contact.title[0] }</span> { contact.title[1] }</h2>
+            <p>{ contact.description }</p>
+            <ContactUs contact={ contact } />
         </section>
     )
 }

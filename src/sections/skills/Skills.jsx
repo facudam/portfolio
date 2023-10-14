@@ -2,12 +2,12 @@ import { Technology } from '../../components/technologyImage/Technology'
 import { NEXTJS, HTML, CSS, JAVASCRIPT, TYPESCRIPT, GITHUB, GIT, SASS, TAILWIND, REACT, NODE, SQL } from '../../images'
 import './Skills.css'
 
-export const Skills = () => {
+export const Skills = ({ skills }) => {
     return(
         <section id='skills' className='skills-section'>
-            <h2 className='title-font'><span>My </span>Skills</h2>
+            <h2 className='title-font'><span>{ skills.title[0] } </span>{ skills.title[1] }</h2>
             <div className='skills-section__technologies'>
-                <p><span>SEO </span>(search engine optimization). I optimize websites to be easily found by users and search engines. Some of the SEO tools I work with are:</p>
+                <p><span>SEO </span>{ skills.description }</p>
                 <ul>
                     <li>Google analytics</li> 
                     <li>Google search console</li> 
@@ -16,7 +16,7 @@ export const Skills = () => {
                     <li>Linkbuilding</li>
                 </ul>    
             </div>
-            <p>Technologies I already work with:</p>
+            <p>{ skills.firstSubtitle }</p>
             <div className='skills-section__technologies flex-row'>
                 <Technology imageLink={ HTML } alt=' html logo' title='html' />
                 <Technology imageLink={ CSS } alt='css logo' title='css'/>
@@ -27,7 +27,7 @@ export const Skills = () => {
                 <Technology imageLink={ TAILWIND } alt='tailwind logo' title='tailwind' />
                 <Technology imageLink={ TYPESCRIPT } alt='typescript logo' title='typescript' />   
             </div>
-            <p>Technologies currently studying:</p>
+            <p>{ skills.secondSubtitle }</p>
             <div className='skills-section__technologies flex-row'>
                 
                 <Technology imageLink={NEXTJS} alt='next js logo' title='next.js'/>

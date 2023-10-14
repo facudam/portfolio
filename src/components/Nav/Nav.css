@@ -97,7 +97,7 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 820px) {
     .hamburger-menu {
         display: none;
     }
@@ -112,6 +112,7 @@
     .nav-container > nav > ul {
         flex-direction: row;
         position: relative; 
+        gap: 25px;
     }
     .nav-container > nav > ul > li {
         font-size: 1.2rem;
