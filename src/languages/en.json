@@ -2,7 +2,7 @@
     "header": {
         "nav": [ "Home", "Projects", "Skills", "About me", "Contact" ],
         "title": ["Hi there!", "I'm Facundo Cáceres"],
-        "description": "A Front-End React developer and SEO optimizer based in Buenos Aires, Argentina. Programming and development lover, with an equal ardor for playing guitars and composing music.",
+        "description": "A Front-End React developer and SEO optimizer based in Buenos Aires, Argentina. Programming and web development lover, with an equal ardor for playing guitars and composing music.",
         "buttons": [ "projects", "my resume" ]
     },
     "projects": {
