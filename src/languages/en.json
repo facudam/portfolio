@@ -19,6 +19,10 @@
             "title": "Fichas médicas app",
             "description": "A CRUD web app that allows for patient registration, adding medical consultations, and keeping medical records up to date."
         },
+        "divsProject": {
+            "title": "Divs Creator",
+            "description": "An online application for designing and customizing cards for websites. It allows users to adjust colors, texts, shadows, and more, and automatically generates the HTML and CSS code."
+        },
         "buttons": [ "code", "live demo" ]
     },
     "skills": {

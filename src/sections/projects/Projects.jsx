@@ -1,5 +1,5 @@
 import { ProjectComponent } from '../../components/projectComponent/ProjectComponent'
-import { MELI, TYPING, FICHAS } from '../../images/index'
+import { MELI, TYPING, FICHAS, DIVSCREATOR } from '../../images/index'
 import './Projects.css'
 
 export const Projects = ({ projects }) => {
@@ -34,6 +34,16 @@ export const Projects = ({ projects }) => {
                 technologies={['CSS', 'React', 'Context', 'useReducer']}
                 gitLINK='https://github.com/facudam/fichas-medicas-app'
                 projectLINK='https://fichasmedicas.netlify.app/'
+                buttons={ projects.buttons }
+            />
+            <ProjectComponent
+                imageSRC={ DIVSCREATOR }
+                alt='Divs Creator app'
+                title={ projects.divsProject.title }
+                description={ projects.divsProject.description }
+                technologies={['HTML', 'CSS', 'JavaScript']}
+                gitLINK='https://github.com/facudam/divs-creator'
+                projectLINK='https://divscreator.netlify.app/'
                 buttons={ projects.buttons }
             />
         </section>

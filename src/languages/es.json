@@ -19,6 +19,10 @@
             "title": "Fichas médicas app",
             "description": "Una aplicación web CRUD que permite registrar pacientes, agregar consultas médicas y mantener actualizados los registros de los pacientes."
         },
+        "divsProject": {
+            "title": "Divs Creator",
+            "description": "Una aplicación web para el diseño y la personalización de cards para sitios web. Permite a los usuarios ajustar colores, textos, sombras y más, y genera automáticamente el código HTML y CSS."
+        },
         "buttons": ["código", "ver demo"]
     },
     "skills": {
