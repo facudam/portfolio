@@ -13,7 +13,7 @@ export const Projects = ({ projects }) => {
                 description={ projects.meliProject.description }
                 technologies={['CSS','React', 'Context', 'UseReducer', 'SwipperJs']} 
                 gitLINK='https://github.com/facudam/mercado-libre-app'
-                projectLINK='https://meliclon.netlify.app/'
+                projectLINK='https://meliclon.vercel.app/'
                 buttons={ projects.buttons }
             />
             <ProjectComponent 
@@ -23,7 +23,7 @@ export const Projects = ({ projects }) => {
                 description={ projects.typingProject.description }
                 technologies={['CSS', 'React', 'Context', 'LocalStorage']}
                 gitLINK='https://github.com/facudam/typing-speed-game'
-                projectLINK='https://typing-speed-game-1.netlify.app/'
+                projectLINK='https://typing-speed-game1.vercel.app/'
                 buttons={ projects.buttons }
             />
             <ProjectComponent 
@@ -33,7 +33,7 @@ export const Projects = ({ projects }) => {
                 description={ projects.fichasProject.description }
                 technologies={['CSS', 'React', 'Context', 'useReducer']}
                 gitLINK='https://github.com/facudam/fichas-medicas-app'
-                projectLINK='https://fichasmedicas.netlify.app/'
+                projectLINK='https://fichas-medicas-app.vercel.app/'
                 buttons={ projects.buttons }
             />
             <ProjectComponent
@@ -43,7 +43,7 @@ export const Projects = ({ projects }) => {
                 description={ projects.divsProject.description }
                 technologies={['HTML', 'CSS', 'JavaScript']}
                 gitLINK='https://github.com/facudam/divs-creator'
-                projectLINK='https://divscreator.netlify.app/'
+                projectLINK='https://divs-creator.vercel.app/'
                 buttons={ projects.buttons }
             />
         </section>
