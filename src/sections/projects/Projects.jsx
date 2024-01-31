@@ -13,7 +13,7 @@ export const Projects = ({ projects }) => {
                 description={ projects.meliProject.description }
                 technologies={['CSS','React', 'Context', 'UseReducer', 'SwipperJs']} 
                 gitLINK='https://github.com/facudam/mercado-libre-app'
-                projectLINK='https://meliclon.vercel.app/'
+                projectLINK='https://e-commerce-libre.vercel.app/'
                 buttons={ projects.buttons }
             />
             <ProjectComponent 
