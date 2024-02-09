@@ -22,7 +22,7 @@ export const Header = ({ header }) => {
                 </div> 
                 <div className='main-header__link'>
                     <a href='#projects'><span>{ header.buttons[0] }</span></a>
-                    <a download="CV-Facundo-Cáceres-Frontend-Developer" href={ CV }>
+                    <a download="CV-Facundo-Cáceres-FullStack-Developer" href={ CV }>
                         <span>
                             <FontAwesomeIcon icon={ faDownload } />
                             { header.buttons[1] } 
