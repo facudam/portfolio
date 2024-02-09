@@ -2,7 +2,7 @@
     "header": {
         "nav": [ "Home", "Proyectos", "Habilidades", "Sobre mí", "Contacto" ],
         "title": ["¡Hola!", "Soy Facundo Cáceres"],
-        "description": "Desarrollador Front-End React y optimizador SEO con sede en Buenos Aires, Argentina. Amante de la programación y el desarrollo web, con el mismo amor por la guitarra y la composición musical.",
+        "description": "Desarrollador Full-Stack y optimizador SEO con sede en Buenos Aires, Argentina. Amante de la programación y el desarrollo web, con el mismo amor por la guitarra y la composición musical.",
         "buttons": [ "proyectos", "mi cv" ]
     },
     "projects": {
