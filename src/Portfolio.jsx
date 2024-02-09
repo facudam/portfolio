@@ -20,7 +20,7 @@ export const Portfolio = () => {
                 nav={ header.nav } 
                 setLanguage={ setLanguage }
             />
-            <Header header={ header }/>
+            <Header header={ header } language={ language }/>
             <main>
               <Projects projects={ projects }/> 
             </main>

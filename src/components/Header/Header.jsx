@@ -1,12 +1,11 @@
 import { ContactLink } from '../contactLinks/ContactLink'
-import CV from '../../Downloads/curriculum.pdf'
 import { CODING, GMAIL, TWITTER, LINKEDIN, GITHUB } from '../../images'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Header.css'
+import { ENGLISH } from '../../languages'
 
 
-export const Header = ({ header }) => {
+export const Header = ({ header, language }) => {
+
     return(
         <header className='main-header' id='header'>
             <div className='introducing-titles'>
@@ -22,9 +21,8 @@ export const Header = ({ header }) => {
                 </div> 
                 <div className='main-header__link'>
                     <a href='#projects'><span>{ header.buttons[0] }</span></a>
-                    <a download="CV-Facundo-Cáceres-FullStack-Developer" href={ CV }>
+                    <a href={ (language === ENGLISH ? 'https://drive.google.com/file/d/154e0ffFfyvFkfmN6rKVzV6hHUxVfWnpo/view' : 'https://drive.google.com/file/d/1JqdGZ-42ok491f5eThx-ow74HUU5sklT/view') } target='_BLANK'>
                         <span>
-                            <FontAwesomeIcon icon={ faDownload } />
                             { header.buttons[1] } 
                         </span>
                     </a>
