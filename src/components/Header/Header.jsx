@@ -1,5 +1,5 @@
 import { ContactLink } from '../contactLinks/ContactLink'
-import { CODING, GMAIL, TWITTER, LINKEDIN, GITHUB } from '../../images'
+import { CODING, GMAIL, TIKTOK, LINKEDIN, GITHUB } from '../../images'
 import './Header.css'
 import { ENGLISH } from '../../languages'
 
@@ -16,7 +16,7 @@ export const Header = ({ header, language }) => {
                         <ContactLink href='https://www.linkedin.com/in/facundo-caceres-dev/' src={ LINKEDIN } alt='linkedin logo' title='linkedin' />
                         <ContactLink href='mailto: facundocaceres.email@gmail.com' src={ GMAIL } alt='gmail logo' title='email' />
                         <ContactLink href='https://github.com/facudam' src={ GITHUB } alt='github logo' title='github'/>
-                        <ContactLink href='https://twitter.com/FCaceres15' src={ TWITTER } alt='twitter logo' title='twitter' />
+                        <ContactLink href='https://www.tiktok.com/@facudam' src={ TIKTOK } alt='TikTok logo' title='tikTok' />
                     </div>
                 </div> 
                 <div className='main-header__link'>
