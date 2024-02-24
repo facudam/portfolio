@@ -87,7 +87,7 @@
 
 .flags-ctn {
     display: flex;
-    gap: 25px;
+    gap: 15px;
     overflow: hidden; 
 }
 
@@ -112,7 +112,7 @@
     .nav-container > nav > ul {
         flex-direction: row;
         position: relative; 
-        gap: 25px;
+        gap: 20px;
     }
     .nav-container > nav > ul > li {
         font-size: 1.2rem;
@@ -138,6 +138,11 @@
     }
     .nav-container > nav > ul > li:hover > a {
         color: var(--main-blue);
+    }
+
+    .flags-ctn {
+        margin-left: 15px;
+        gap: 10px;
     }
 
     .flags-ctn img {

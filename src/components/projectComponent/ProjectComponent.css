@@ -9,6 +9,7 @@
     gap: 15px;
     margin-top: 20px;
     box-shadow: var(--shadow-container);
+    border-radius: 5px;
     background-color: var(--technology-background);
 }
 
@@ -18,10 +19,11 @@
     height: 200px;
     overflow: hidden;
     box-shadow: var(--shadow-container);
+    border-radius: 5px;
 }
 
 .project-img-ctn > img {
-    width: 100%; 
+    width: 100%;
 }
 
 .project-img-ctn > img:hover {
@@ -111,7 +113,7 @@
 @media screen and (min-width: 1220px) {
     .project-component {
         gap: 50px;
-        padding: 25px 25px;
+        padding: 23px 25px;
     }
     .project-img-ctn {
         height: 220px;

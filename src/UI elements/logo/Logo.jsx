@@ -8,7 +8,7 @@ export const Logo = () => {
                 <span>C</span>
             </div>
             <div className="slogan-ctn">
-                <span>developer</span>
+                <span translate='no'>developer</span>
             </div>
         </div>
     )
