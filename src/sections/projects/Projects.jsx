@@ -1,11 +1,20 @@
 import { ProjectComponent } from '../../components/projectComponent/ProjectComponent'
-import { MELI, TYPING, FICHAS, DIVSCREATOR } from '../../images/index'
+import { MELI, TYPING, FICHAS, DIVSCREATOR, COURSESLIBRA } from '../../images/index'
 import './Projects.css'
 
 export const Projects = ({ projects }) => {
     return(
         <section className='projects' id='projects'>
             <h2 className='title-font'>{ projects.title[0] } <span>{ projects.title[1] }</span></h2>
+            <ProjectComponent
+                imageSRC={ COURSESLIBRA }
+                alt='CoursesLibra platform'
+                title={ projects.coursesLibra.title }
+                description={ projects.coursesLibra.description }
+                technologies={['ReactJS', 'TypeScript', 'NodeJS', 'Express', 'MySQL', 'CSS', 'Axios']}
+                gitLINK='https://github.com/facudam/fullstack-courses-app'
+                buttons={ projects.buttons }
+            />
             <ProjectComponent 
                 imageSRC={ MELI } 
                 alt='mercado libre clone' 

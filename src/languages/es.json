@@ -7,6 +7,11 @@
     },
     "projects": {
         "title": [ "Mis", "Proyectos" ],
+        "coursesLibra": {
+            "title": "CoursesLibra",
+            "description": "Una aplicación web que ofrece una amplia gama de cursos IT de diferentes plataformas, con el objetivo de simplificar la búsqueda del curso perfecto mediante filtros avanzados. Los usuarios pueden crear cuentas, agregar cursos, compartir comentarios y calificar los cursos completados."
+        },
+
         "meliProject": {
             "title": "Mercado Libre",
             "description": "Un clon de la popular plataforma de comercio electrónico. Incluye interactividad y consultas a su API. Carrito de compras y una funcionalidad adicional de comparación de productos para escritorio."
